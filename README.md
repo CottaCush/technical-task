@@ -1,6 +1,6 @@
 ## Technical Task
 Create an application that allows users to enter shipment information and retrieve shipping rates
-from Printful's API. In order to speed up the process, create a caching mechanism and use it to
+from **** API. In order to speed up the process, create a caching mechanism and use it to
 store API results for faster retrieval when the same shipment information is provided.
 
 ### Environment Variable
