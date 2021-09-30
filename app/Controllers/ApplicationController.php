@@ -10,12 +10,7 @@ class ApplicationController
     {
         $results = null;
         if (!empty($_POST)) {
-            // TODO: Implement requirements and display shipping rates
-            $cache = new CacheModel();
-            $shipmentInfo = new ShipmentInfoController($cache);
-            $postData = $_POST;
-
-            $results = $shipmentInfo->getShippingRates($postData);
+            // TODO: Implement requirements and display converted rate
         }
 
         echo $this->renderView('views/forms.php', ['results' => $results]);

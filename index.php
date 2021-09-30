@@ -1,7 +1,5 @@
 <?php
 
-use App\Controllers\ApplicationController;
+require_once('./app/Controllers/ApplicationController.php');
 
-require "bootstrap/bootstrap.php";
-
-(new ApplicationController())->run();
+(new App\Controllers\ApplicationController())->run();
